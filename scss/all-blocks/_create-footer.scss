@@ -1,0 +1,41 @@
+.create-footer{
+    background: #2C343E;
+    height: 120px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    &__logo{
+        margin-left: 85px;
+    }
+
+    &__nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 33px;
+        font-family: 'Barlow';
+        position: relative;
+        left: 70px;
+
+        a:hover{
+            color: $title-color;
+        }
+
+        a{
+            color: $text-color;  
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+
+    &__social-media{
+        display: flex;
+        flex-direction: row;
+        gap: 24px;
+        position: relative;
+        left: 300px;
+    }
+}

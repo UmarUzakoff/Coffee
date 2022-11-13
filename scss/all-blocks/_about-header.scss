@@ -1,0 +1,25 @@
+.about-header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 44px;
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        gap: 33px;
+        font-family: 'Barlow';
+
+        &__a{
+            color: $text-color;  
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+        }
+
+        &__a:hover{
+            color: $blacktitle-color;
+        }
+    }
+}
